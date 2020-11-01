@@ -1,0 +1,77 @@
+digraph prof {
+	bgcolor = "#ffffff88";
+	rankdir = LR;
+	ratio = fill;
+	node [style=filled,fillcolor="#ce93d8",color="#212121",penwidth="4"];
+
+	"Redstone Block" -> "Redstone";
+	"Redstone" -> "Target Block";
+	"Hay Bale" -> "Target Block";
+	"Piston" -> "Sticky Piston";
+	"Slime Ball" -> "Sticky Piston";
+	"Slime Block" -> "Slime Ball";
+	"Dropper" -> "Dispenser";
+	"String" -> "Dispenser";
+	"Stick" -> "Dispenser";
+	"Redstone Torch" -> "Redstone Comparator";
+	"Quartz" -> "Redstone Comparator";
+	"Stone" -> "Redstone Comparator";
+	"Planks" -> "Note Block";
+	"Redstone" -> "Note Block";
+	"Log" -> "Planks";
+	"Planks" -> "Stick";
+	"Glass" -> "Daylight Detector";
+	"Quartz" -> "Daylight Detector";
+	"Plank Slab" -> "Daylight Detector";
+	"Planks" -> "Plank Slab";
+	"Redstone Torch" -> "Redstone Repeater";
+	"Redstone" -> "Redstone Repeater";
+	"Stone" -> "Redstone Repeater";
+	"Iron Ingot" -> "Hopper";
+	"Iron Block" -> "Iron Ingot";
+	"Chest" -> "Hopper"
+	"Planks" -> "Chest";
+	"Redstone" -> "Redstone Torch";
+	"Stick" -> "Redstone Torch";
+	"Cobblestone" -> "Dropper";
+	"Redstone" -> "Dropper";
+	"Cobblestone" -> "Lever";
+	"Stick" -> "Lever";
+	"Planks" -> "Piston";
+	"Cobblestone" -> "Piston";
+	"Iron Ingot" -> "Piston";
+	"Redstone" -> "Piston";
+	"Cobblestone" -> "Observer";
+	"Redstone" -> "Observer";
+	"Quartz" -> "Observer";
+
+	"Redstone Block" [fillcolor="#f44336",color="#f44336"];
+	"Redstone" [fillcolor="#f44336",color="#f44336"];
+	"Redstone Torch" [fillcolor="#f44336",color="#f44336"];
+	"Redstone Comparator" [fillcolor="#f44336",color="#f44336"];
+	"Redstone Repeater" [fillcolor="#f44336",color="#f44336"];
+	"Iron Block" [fillcolor="#bdbdbd",color="#ffffff"];
+	"Iron Ingot" [fillcolor="#bdbdbd",color="#ffffff"];
+	"Hay Bale" [fillcolor="#fff59d",color="#f57f17"];
+	"Target Block" [fillcolor="#f44336",color="#ffffff"];
+	"Log" [fillcolor="#795548",color="#3e2723",fontcolor="#fafafa"];
+	"Planks" [fillcolor="#795548",color="#3e2723",fontcolor="#fafafa"];
+	"Plank Slab" [fillcolor="#795548",color="#3e2723",fontcolor="#fafafa"];
+	"Chest" [fillcolor="#795548",color="#3e2723",fontcolor="#fafafa"];
+	"Stick" [fillcolor="#795548",color="#3e2723",fontcolor="#fafafa"];
+	"Note Block" [fillcolor="#795548",color="#3e2723",fontcolor="#fafafa"];
+	"Lever" [fillcolor="#795548",color="#000000",fontcolor="#fafafa"];
+	"Quartz" [fillcolor="#fafafa",color="#ffffff"];
+	"Stone" [fillcolor="#616161",color="#616161",fontcolor="#fafafa"];
+	"Cobblestone" [fillcolor="#757575",color="#757575",fontcolor="#fafafa"];
+	"Observer" [fillcolor="#757575",color="#212121",fontcolor="#fafafa"];
+	"Dropper" [fillcolor="#757575",color="#555555",fontcolor="#fafafa"];
+	"Dispenser" [fillcolor="#757575",color="#555555",fontcolor="#fafafa"];
+	"String" [fillcolor="#eeeeee",color="#eeeeee"];
+	"Piston" [fillcolor="#757575",color="#212121",fontcolor="#fafafa"];
+	"Sticky Piston" [fillcolor="#757575",color="#4caf50",fontcolor="#fafafa"];
+	"Slime Ball" [fillcolor="#4caf50",color="#4caf50"];
+	"Slime Block" [fillcolor="#4caf50",color="#4caf50"];
+	"Hopper" [fillcolor="#424242",color="#212121",fontcolor="#fafafa"];
+
+}
